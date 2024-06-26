@@ -1,6 +1,6 @@
 ---
 title: "プリレンダリングの2つの形態"
-date: "2022-02-22"
+date: "2024-06-26"
 thumbnail: "/images/thumbnail02.jpg"
 ---
 

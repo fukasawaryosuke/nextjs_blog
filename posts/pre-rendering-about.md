@@ -1,6 +1,6 @@
 ---
 title: "プリレンダリングについて"
-date: "2020-02-21"
+date: "2024-06-26"
 thumbnail: "/images/thumbnail04.jpg"
 ---
 

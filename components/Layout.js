@@ -3,8 +3,8 @@ import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 
-const name = "Shin Code";
-export const siteTitle = "Next.js blog";
+const Name = "fukasawa ryosuke";
+export const SiteTitle = "Next.js blog";
 
 function Layout({ children, home }) {
   return (
@@ -16,18 +16,18 @@ function Layout({ children, home }) {
         {home ? (
           <>
             <img
-              src="/images/profile.png"
+              src="/images/profile.jpeg"
               className={`${utilStyles.borderCircle} ${styles.headerHomeImage}`}
             />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            <h1 className={utilStyles.heading2Xl}>{Name}</h1>
           </>
         ) : (
           <>
             <img
-              src="/images/profile.png"
+              src="/images/profile.jpeg"
               className={`${utilStyles.borderCircle}`}
             />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            <h1 className={utilStyles.heading2Xl}>{Name}</h1>
           </>
         )}
       </header>
